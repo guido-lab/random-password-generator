@@ -18,7 +18,7 @@ class RandPasswordGenerator():
         for i in range(lenght):
             password = password + random.choice(chars)
 
-        # Checking if the user want to include upercase chars to his password
+        # Checking if the user want to include upercase chars to his password  
         if wantUppers.lower() == "yes":
             return "Password: " + password
         elif wantUppers.lower() == "no":
